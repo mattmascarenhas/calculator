@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <input class= "display" type="" id="display" value="" disabled/>
+      <input class= "button" type="button" id="erase" value="C" onclick="erase()"/>
+      <input class= "button" type="button" id="eraseAll" value="CA" onclick="eraseLast()"/>
+      <input class= "button" type="button" id="divs" value="/" onclick="clickButton('/')"/>
+      <input class= "button" type="button" id="n7" value="7" onclick="clickButton(7)"/>
+      <input class= "button" type="button" id="n8" value="8" onclick="clickButton(8)"/>
+      <input class= "button" type="button" id="n9" value="9" onclick="clickButton(9)"/>
+      <input class= "button" type="button" id="mult" value="*" onclick="clickButton('*')"/>
+      <input class= "button" type="button" id="n4" value="4" onclick="clickButton(4)"/>
+      <input class= "button" type="button" id="n5" value="5" onclick="clickButton(5)"/>
+      <input class= "button" type="button" id="n6" value="6" onclick="clickButton(6)"/>
+      <input class= "button" type="button" id="more" value="+" onclick="clickButton('+')"/>
+      <input class= "button" type="button" id="n3" value="3" onclick="clickButton(3)"/>
+      <input class= "button" type="button" id="n2" value="2" onclick="clickButton(2)"/>
+      <input class= "button" type="button" id="n1" value="1" onclick="clickButton(1)"/>
+      <input class= "button" type="button" id="lee" value="-" onclick="clickButton('-')"/>
+      <input class= "button" type="button" id="point" value="." onclick="clickButton('.')"/>
+      <input class= "button" type="button" id="n0" value="0" onclick="clickButton(0)"/>
+      <input class= "button" type="button" id="equal" value="=" onclick="calculate()"/>
+
+  </body>
+  <script src="app.js"></script>
+</html>
