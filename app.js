@@ -1,4 +1,4 @@
-function erase() {
+function deleteAll() {
   document.getElementById('display').value = ''
 }
 
@@ -11,7 +11,9 @@ function calculate() {
   document.getElementById('display').value = eval(result)
 }
 
-function eraseLast() {
-  document.getElementById('display').value 
-
+function deleteLast() {
+  document.getElementById('display').value = document
+    .getElementById('display')
+    .value.toString()
+    .slice(0, -1)
 }

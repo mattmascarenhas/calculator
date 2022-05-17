@@ -28,7 +28,7 @@ input {
 }
 
 #equal,
-#erase {
+#deleteAll {
   grid-column: span 2;
 }
 
